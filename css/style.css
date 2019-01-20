@@ -1,0 +1,982 @@
+@font-face {
+  font-family: Bahschrift;
+  src: url(../fonts/Bahschrift.ttf);
+  font-weight: normal;
+  font-style: normal; }
+html {
+  position: relative;
+  min-height: 100%; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display: block; }
+
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0; }
+
+.container {
+  max-width: 1170px;
+  padding-left: 0;
+  padding-right: 0; }
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+  padding-left: 0;
+  padding-right: 0; }
+
+a {
+  text-decoration: none;
+  border-color: transparent; }
+
+:active, :hover, :focus {
+  outline: 0;
+  outline-offset: 0; }
+
+a:active, a:focus {
+  outline: none; }
+
+input {
+  outline: 0 !important; }
+
+button:active, button:focus {
+  outline: none; }
+
+.form-control:focus,
+.btn:focus {
+  outline: 0;
+  box-shadow: none; }
+
+button::-moz-focus-inner {
+  border: 0; }
+
+input {
+  outline: none; }
+
+.transition {
+  transition: 0.7s; }
+
+input:-webkit-autofill {
+  -webkit-box-shadow: inset 0 0 0 50px #fff !important;
+  -webkit-text-fill-color: #303549 !important;
+  color: #303549 !important; }
+
+body {
+  font-family: Bahnschrift, sans-serif;
+  background: url("../img/png/bg-site.png") repeat; }
+
+.wrapper {
+  position: relative;
+  min-width: 320px;
+  max-width: 100%;
+  min-height: 100%;
+  height: 100%; }
+
+/*header*/
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 3.25rem 3.5rem; }
+
+header a {
+  font-family: Bahnschrift, sans-serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #BB926F;
+  letter-spacing: 5px; }
+
+header a:hover {
+  text-decoration: none;
+  color: #BB926F; }
+
+header img {
+  float: left;
+  width: 2.93rem;
+  height: 2.81rem;
+  margin: -0.8rem 1rem 0 0; }
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  color: #fff; }
+
+.select2-container--default .select2-selection--single {
+  background-color: transparent;
+  border: none; }
+
+.registration {
+  display: none;
+  width: 127px;
+  height: 64px;
+  background: #BF946E;
+  border-radius: 50px;
+  padding: 1.3rem 0;
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #fff;
+  letter-spacing: 2px;
+  margin-top: -1rem; }
+
+.registration:hover {
+  background: #b78862;
+  color: #fff !important; }
+
+/* END header*/
+/* main*/
+main {
+  background: url("../img/png/waves-bg.png") no-repeat;
+  background-position: 100% 0; }
+
+/*intelegent*/
+.intelegent {
+  padding: 2rem 0 13rem; }
+
+.intelegent .intelegent-cinq {
+  background: url(../img/png/bg1.png) no-repeat;
+  background-position: 100% 42%;
+  padding: 2rem 0 17rem; }
+
+.intelegent-block {
+  margin: 4.2rem 0;
+  width: 60%; }
+
+.intelegent-block h1 {
+  line-height: 50px;
+  font-size: 3rem;
+  letter-spacing: 5px;
+  color: #C19A79;
+  margin-bottom: 4rem; }
+
+.intelegent-block p {
+  line-height: 40px;
+  font-size: 1rem;
+  color: #fff;
+  margin-bottom: 4rem; }
+
+.notified .form-control,
+.scence-email form .form-control,
+.intelegent-block form .form-control {
+  width: 388px;
+  height: 64px;
+  background: #283238;
+  border-radius: 50px;
+  padding: 0 3.2rem;
+  font-size: 16px;
+  color: #B6B6B6;
+  border: none; }
+
+.notified form button,
+.scence-email form button,
+.intelegent-block form button {
+  width: 192px;
+  height: 64px;
+  background: #BF946E;
+  border-radius: 50px;
+  padding: 0 3.2rem;
+  font-size: 16px;
+  color: #fff;
+  margin-left: -5rem; }
+
+.notified form button:hover,
+.scence-email form button:hover,
+.intelegent-block form button:hover {
+  background: #b78862; }
+
+.intelegent-fb {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2.5rem 1rem 1.9rem;
+  color: #fff;
+  font-size: 16px;
+  margin: -4rem 0 0; }
+
+.intelegent-fb ul li {
+  list-style: none;
+  padding: 0 1.4rem 0 0; }
+
+.intelegent-fb a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem; }
+
+.intelegent-fb a:hover {
+  color: #b78862; }
+
+.intelegent-fb a img {
+  height: 12px;
+  width: 10px;
+  margin: 0 1rem; }
+
+.mob-product {
+  display: none; }
+
+/* END intelegent*/
+/* showcasing*/
+.showcasing {
+  padding: 0 10rem; }
+
+.showcasing h1 {
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 5px;
+  color: #C19A79; }
+
+.showcasing p {
+  font-size: 16px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 2rem 0; }
+
+.showcasing-block {
+  display: flex;
+  justify-content: center;
+  padding: 7rem 0; }
+
+.showcasing-item2,
+.showcasing-item {
+  width: 368px;
+  text-align: right;
+  margin: 1rem 0 7rem; }
+
+.showcasing-item2 img,
+.showcasing-item img {
+  width: 62px;
+  height: 64px; }
+
+.showcasing-item p {
+  font-size: 24px;
+  letter-spacing: 1px;
+  color: #fff;
+  text-align: right; }
+
+.showcasing-item2 ul li,
+.showcasing-item ul li {
+  list-style: none;
+  line-height: 40px;
+  font-size: 16px;
+  color: #95949A; }
+
+.showcasing-item2 {
+  text-align: left; }
+
+.showcasing-img {
+  background: url(../img/png/logo.png) no-repeat;
+  background-position: 100% 0;
+  background-size: contain;
+  margin: 0 4rem; }
+
+.showcasing-img .cinq-open {
+  /* position: absolute; */
+  width: 100%;
+  margin-top: -4rem;
+  margin-left: 2rem; }
+
+.showcasing-item2 {
+  margin: 1rem 0 5rem; }
+
+.showcasing-item2 p {
+  font-size: 24px;
+  letter-spacing: 1px;
+  color: #fff;
+  text-align: left;
+  line-height: 40px; }
+
+.showcasing-img .cinq-open .tablet-mid {
+  display: none; }
+
+/* END showcasing*/
+/* fragrance*/
+.scents,
+.fragrance {
+  padding: 4rem 15rem; }
+
+.scents .fragrance-ai,
+.fragrance-ai {
+  text-align: center; }
+
+.scents h1,
+.fragrance h1 {
+  line-height: 50px;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 5px;
+  color: #C19A79;
+  margin: 3rem 0; }
+
+.scents p,
+.fragrance p {
+  line-height: 40px;
+  font-size: 18px;
+  text-align: center;
+  color: #FFFFFF; }
+
+.scents .fragrance-block,
+.fragrance-block {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8.37rem; }
+
+.scents .fragrance-item,
+.fragrance-item {
+  width: 50%;
+  padding: 0 5rem; }
+
+.scents .fragrance-item p,
+.fragrance-item p {
+  line-height: 40px;
+  font-size: 18px;
+  color: #95949A;
+  padding: 0 0 3rem;
+  text-align: left; }
+
+.scents .fragrance-item ul li,
+.fragrance-item ul li {
+  list-style: none;
+  padding: 0 0 4rem 0;
+  line-height: 30px;
+  font-size: 18px;
+  color: #95949A; }
+
+.scents .fragrance-item ul li img,
+.fragrance-item ul li img {
+  float: left;
+  width: 52px;
+  height: auto;
+  margin: -0.5rem 3rem 1rem 0; }
+
+/* END fragrance*/
+/* scence*/
+.scence-email {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center; }
+
+.scence-email h5 {
+  line-height: 50px;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  padding: 5rem 0 4.4rem; }
+
+/* END scence*/
+/* simply-order*/
+.simply-order {
+  padding: 11rem 15rem; }
+
+.how-subscribe h1,
+.simply-order h1 {
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 5px;
+  color: #C19A79;
+  margin: 0 0 8rem 0; }
+
+.simply-order-block {
+  display: flex;
+  justify-content: center;
+  padding: 0 10rem; }
+
+.simply-order-block img {
+  height: 242px;
+  margin-right: 11rem; }
+
+.simply-order-block .simply-img {
+  height: 318px;
+  margin-top: -5rem; }
+
+.simply-order-num {
+  display: flex;
+  justify-content: space-between;
+  padding: 4.2rem 0; }
+
+.simply-order-item {
+  width: 30%;
+  text-align: center; }
+
+.how-subscribe-block p,
+.simply-order-item p {
+  line-height: 40px;
+  font-size: 18px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 6rem; }
+
+.simply-order-item h5 {
+  position: relative;
+  font-size: 16px;
+  margin: -1.5rem 11rem;
+  color: #fff;
+  width: 2rem;
+  height: 2rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background: #BB926F;
+  box-shadow: 0 0 0 20px rgba(188, 147, 111, 0.3), 0 0 0 40px #182024; }
+
+.simply-order-item:before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  height: 3px;
+  background: #6CBD83;
+  margin: 0 -0.5rem;
+  border-width: 0 10px; }
+
+.simply-order-item:before {
+  margin-right: -100%; }
+
+.last-border:before {
+  content: '';
+  display: none; }
+
+.last-border h5 {
+  margin: -0.5rem 10rem; }
+
+/* END simply-order*/
+/* how-subscribe*/
+.how-subscribe {
+  display: none;
+  padding: 8rem 0 10rem; }
+
+.how-subscribe-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.how-subscribe-block {
+  width: 350px; }
+
+.how-subscribe h1 {
+  margin: 0 0 7rem 0; }
+
+.how-subscribe-block h5 {
+  position: relative;
+  font-size: 16px;
+  color: #fff;
+  margin: 0 auto;
+  width: 2rem;
+  height: 2rem;
+  padding: 0.5rem 0.8rem;
+  border-radius: 50%;
+  background: #BB926F;
+  box-shadow: 0 0 0 20px rgba(188, 147, 111, 0.3), 0 0 0 40px #182024; }
+
+.how-subscribe-block p {
+  margin-top: 4rem; }
+
+/* END how-subscribe*/
+/* word*/
+.word {
+  padding: 0 0 10rem; }
+
+.word h1 {
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 5px;
+  color: #C19A79;
+  margin-bottom: 2rem; }
+
+.word .container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center; }
+
+.word .container img {
+  height: 100%; }
+
+.word p {
+  line-height: 40px;
+  font-size: 18px;
+  text-align: center;
+  color: #95949A;
+  margin-bottom: 7rem; }
+
+.word-img-hide {
+  display: none; }
+
+/* END word*/
+/* evolving*/
+.evolving {
+  padding: 0 0 20rem; }
+
+.evolving h1 {
+  line-height: 50px;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 5px;
+  color: #C19A79; }
+
+.evolving p {
+  line-height: 40px;
+  font-size: 18px;
+  text-align: center;
+  color: #95949A;
+  margin: 0 0 5rem; }
+
+.evolving-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0; }
+
+.evolving-img img {
+  width: 672px; }
+
+.evolving-description h6 {
+  line-height: 40px;
+  font-size: 30px;
+  color: #C19A79;
+  text-align: left;
+  margin-bottom: 1rem;
+  margin-left: 6rem; }
+
+.evolving-description p {
+  line-height: 40px;
+  font-size: 18px;
+  color: #FFFFFF;
+  margin: 2rem 0 0 6rem;
+  text-align: left; }
+
+.evolving-description img {
+  position: absolute;
+  margin: 0 0 0 -13rem; }
+
+.evolving-description .right-border {
+  position: absolute;
+  margin: 0 -13rem 0 0; }
+
+.evolving-item-right .evolving-description h6 {
+  margin-left: 7rem; }
+
+.evolving-item-right .evolving-img img {
+  margin-left: 6rem; }
+
+.evolving-item-right .evolving-description p {
+  text-align: right;
+  margin: 2rem 0 0 -2rem; }
+
+.evolving-img-open {
+  display: none; }
+
+/* END evolving*/
+/* notified*/
+.notified {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 12.5rem; }
+
+.notified h1 {
+  line-height: 41px;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 5px;
+  color: #C19A79; }
+
+.notified p {
+  line-height: 50px;
+  font-size: 18px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 2rem 0 4.5rem; }
+
+/* END notified*/
+#wrapper hr {
+  border: 1px solid #25303A; }
+
+/* END main*/
+footer {
+  padding: 3rem 3.5rem;
+  line-height: 25px;
+  font-size: 16px;
+  text-align: right;
+  color: #95949A; }
+
+.footer-block {
+  display: flex;
+  justify-content: space-between; }
+
+.footer-block span {
+  margin: 0 1rem; }
+
+.footer-block div img {
+  margin: -0.8rem 0; }
+
+/*media*/
+@media screen and (max-width: 1600px) {
+  .intelegent-block {
+    margin: 1.2rem 0;
+    width: 45%; }
+
+  .simply-order {
+    padding: 11rem 6rem; } }
+@media screen and (max-width: 1500px) {
+  .showcasing-block {
+    flex-wrap: wrap; }
+
+  .showcasing-img {
+    order: -1; }
+
+  .showcasing-item {
+    margin: 1rem 4rem 7rem; }
+
+  .showcasing-item2 {
+    margin: 1rem 4rem 4rem; }
+
+  .scents, .fragrance {
+    padding: 4rem 0; } }
+@media screen and (max-width: 1299px) {
+  main {
+    background-position: 50% 0; }
+
+  .intelegent .intelegent-cinq {
+    background-position: 42% 41%; }
+
+  .notified .form-control, .scence-email form .form-control, .intelegent-block form .form-control {
+    width: 350px; }
+
+  .showcasing {
+    padding: 0 0; }
+
+  .intelegent-block {
+    margin: 1.2rem 1rem; }
+
+  .simply-order-block img {
+    height: 242px;
+    margin: 0 3%; }
+
+  .evolving-img img {
+    width: 347px; } }
+@media screen and (max-width: 1199px) {
+  .simply-order-block img {
+    height: 194px; }
+
+  .scents .fragrance-item, .fragrance-item {
+    width: 50%;
+    padding: 0 1rem; }
+
+  .scents .fragrance-item ul li img, .fragrance-item ul li img {
+    margin: -0.5rem 1rem 1rem 0; }
+
+  .simply-order-item h5 {
+    margin: -1.5rem 6rem; }
+
+  .fragrance-item img {
+    width: 100%; } }
+@media screen and (max-width: 992px) {
+  .notified .form-control, .scence-email form .form-control, .intelegent-block form .form-control {
+    width: 300px; }
+
+  .notified form button, .scence-email form button, .intelegent-block form button {
+    width: 140px; }
+
+  .simply-order-block img {
+    margin: 0; }
+
+  .notified form button, .scence-email form button, .intelegent-block form button {
+    padding: 0 2.2rem; }
+
+  .simply-order-item h5 {
+    margin: -1.5rem 7rem; }
+
+  .simply-order {
+    padding: 11rem 1rem; }
+
+  .showcasing-item {
+    margin: 1rem 2rem 7rem; }
+
+  .showcasing-item2 {
+    margin: 1rem 2rem 5rem; }
+
+  .showcasing-item2, .showcasing-item {
+    width: 280px; }
+
+  .simply-order-block .simply-img {
+    height: 200px;
+    margin: -3rem 0 0 2rem; }
+
+  .simply-order-block img {
+    height: 170px; }
+
+  .last-border h5 {
+    margin-top: 0; }
+
+  .evolving-item-right .evolving-description p {
+    margin: 2rem 0 0 1rem; }
+
+  .delete-br {
+    display: none; } }
+@media screen and (max-width: 770px) {
+  main {
+    background: url("../img/png/little-waves.png") no-repeat;
+    background-position: 100% 2.5%; }
+
+  .intelegent .intelegent-cinq {
+    background: url(../img/png/header.png) no-repeat;
+    background-position: 100% 35%;
+    padding: 2rem 0 9rem; }
+
+  .intelegent-block {
+    margin: 1.2rem 1rem;
+    width: 56%; }
+
+  .intelegent-block h1 {
+    font-size: 2.5rem; }
+
+  .notified .form-control, .scence-email form .form-control, .intelegent-block form .form-control {
+    width: 320px; }
+
+  .intelegent-fb {
+    padding: 0 1rem 1rem 1rem; }
+
+  .intelegent {
+    padding: 2rem 0 6rem; }
+
+  .showcasing h1 {
+    padding: 0 1rem; }
+
+  .showcasing p {
+    padding: 2rem 2rem; }
+
+  .showcasing-img {
+    background: none; }
+
+  .cinq-open .showcasing-item-img {
+    display: none; }
+
+  .showcasing-img .cinq-open .tablet-mid {
+    display: block;
+    width: 494px; }
+
+  .showcasing-img .cinq-open {
+    margin: 0 0 7rem 0; }
+
+  .showcasing-block {
+    padding: 5rem 0 0; }
+
+  .showcasing-item2, .showcasing-item {
+    text-align: left; }
+
+  .showcasing-item2 p,
+  .showcasing-item p {
+    text-align: left;
+    padding: 2rem 0; }
+
+  .showcasing-item2 {
+    margin: 1rem 2rem 3rem; }
+
+  .scents .fragrance-block, .fragrance-block {
+    flex-wrap: wrap; }
+
+  .scents .fragrance-item, .fragrance-item {
+    width: 100%;
+    padding: 2rem 1rem; }
+
+  .scents .fragrance-item p {
+    padding: 0 !important; }
+
+  .scents .fragrance-block, .fragrance-block {
+    margin-top: 5rem; }
+
+  .scence-email h5 {
+    padding: 3rem 0 4.4rem; }
+
+  .simply-order {
+    display: none; }
+
+  .how-subscribe {
+    display: block; }
+
+  .word-img-hide-mid {
+    display: none; }
+
+  .word-img-hide {
+    display: block; }
+
+  .word .container img {
+    margin: 2rem 3rem;
+    height: 100%; }
+
+  .evolving-description p {
+    text-align: left; }
+
+  .evolving-img img {
+    width: 347px;
+    margin-left: -2rem;
+    position: static; }
+
+  .evolving-description h6 {
+    text-align: left;
+    margin-left: 3rem; }
+
+  .evolving-description p {
+    line-height: 40px;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 2rem 2rem 0 3rem; }
+
+  .evolving-img-hide {
+    display: none; }
+
+  .evolving-img-open {
+    display: block; }
+
+  .evolving-item-right .evolving-description h6 {
+    margin-left: 2rem; }
+
+  .evolving-item-right .evolving-img img {
+    margin-left: 1rem;
+    position: static; }
+
+  .evolving-item-right .evolving-description .right-border {
+    position: absolute;
+    margin: 0 0 0 2rem;
+    width: 81%; }
+
+  .evolving {
+    padding: 0 0 10rem; }
+
+  footer {
+    padding: 3rem 0.5rem; }
+
+  .footer-block div {
+    width: 30%;
+    text-align: center; }
+
+  .footer-block p {
+    text-align: left;
+    margin: 2rem 0 2rem 2rem; }
+
+  .footer-block div img {
+    margin: 1.8rem 0 0;
+    order: -1; }
+
+  footer {
+    padding: 0 0.5rem 2rem; }
+
+  .footer-logo {
+    display: flex;
+    flex-wrap: wrap; } }
+@media screen and (max-width: 575px) {
+  header {
+    padding: 3.25rem 1rem; }
+
+  header a p {
+    display: none; }
+
+  .registration {
+    display: block; }
+
+  .intelegent .intelegent-cinq,
+  main {
+    background: none; }
+
+  .mob-product {
+    display: block; }
+
+  .mob-product {
+    background: url("../img/png/waves-bg.png") no-repeat;
+    background-position: 100% 0;
+    background-size: contain;
+    display: flex;
+    justify-content: center; }
+
+  .intelegent-block {
+    margin: 1.2rem 1rem;
+    width: 100%; }
+
+  .mob-product img {
+    margin: -9rem 0 10rem 8rem; }
+
+  .word {
+    padding: 0 0 3rem; }
+
+  .evolving {
+    padding: 0 1rem; }
+
+  .evolving-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; }
+
+  .evolving-description img {
+    display: none; }
+
+  .evolving-description {
+    order: -1; }
+
+  .evolving-item-right .evolving-description p {
+    text-align: left; }
+
+  .evolving-description p {
+    margin: 0; }
+
+  .evolving-item {
+    margin-bottom: 5rem; }
+
+  .evolving-img img {
+    width: 240px;
+    margin-left: 0; }
+
+  .how-subscribe h1 {
+    margin: 0 0 3rem 0; }
+
+  .how-subscribe {
+    display: none;
+    padding: 4rem 0rem 6rem; }
+
+  .how-subscribe-block p, .simply-order-item p {
+    padding: 0 1rem; }
+
+  .scents, .fragrance {
+    padding: 4rem 0 0; }
+
+  .showcasing-item {
+    margin: 1rem 2rem 3rem; }
+
+  .scents, .fragrance {
+    padding: 4rem 1rem 0; }
+
+  .showcasing-img .cinq-open .tablet-mid {
+    display: block;
+    width: 100%; }
+
+  .notified .form-control, .scence-email form .form-control, .intelegent-block form .form-control {
+    width: 260px; }
+
+  .scents h1, .showcasing h1, .how-subscribe h1, .notified h1, .how-subscribe h1, .simply-order h1,
+  .fragrance h1 {
+    line-height: 40px;
+    font-size: 36px; }
+
+  .footer-block {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center; }
+
+  .footer-block div {
+    width: 100%; }
+
+  .footer-block div img {
+    margin: 1.8rem auto;
+    order: -1; }
+
+  .footer-block span {
+    display: none; }
+
+  .footer-main-logo img {
+    display: none; } }
+@media screen and (max-width: 400px) {
+  .mob-product img {
+    margin: -7rem 0 10rem 6rem;
+    width: 68%;
+    height: 70%; }
+
+  .notified .form-control, .scence-email form .form-control, .intelegent-block form .form-control {
+    width: 226px; } }
+
+/*# sourceMappingURL=style.css.map */
