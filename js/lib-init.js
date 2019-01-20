@@ -1,7 +1,6 @@
 $(document).ready(function(){
 
-    <!--connecting animations-->
-    // new WOW().init();
+
 
 <!-- magnific-popup -->
     $('.popup-content').magnificPopup({
