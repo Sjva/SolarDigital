@@ -61,6 +61,7 @@ input:-webkit-autofill {
 body {
   font-family: Bahnschrift, sans-serif;
   background: url("../img/png/bg-site.png") repeat ;
+  overflow-x:hidden;
 }
 
 .wrapper {
@@ -131,7 +132,7 @@ main{
  }
 .intelegent .intelegent-cinq {
   background: url(../img/png/bg1.png) no-repeat;
-  background-position: 100% 42%;
+  background-position: 100% 40%;
   padding: 2rem 0 17rem;
 }
 .intelegent-block{
@@ -652,6 +653,9 @@ footer{
   .scents, .fragrance {
     padding: 4rem 0;
   }
+  .simply-order-block img {
+    margin-right: 7rem;
+  }
 }
 @media screen and (max-width: 1299px) {
   main {
@@ -965,7 +969,6 @@ footer{
     margin: 0 0 3rem 0;
   }
   .how-subscribe {
-    display: none;
     padding: 4rem 0rem 6rem;
   }
   .how-subscribe-block p, .simply-order-item p {
@@ -983,6 +986,11 @@ footer{
   .showcasing-img .cinq-open .tablet-mid {
     display: block;
     width: 100%;
+  }
+  .word .container img {
+    margin: 2rem 0;
+    height: auto;
+    width: 40%;
   }
   .notified .form-control, .scence-email form .form-control, .intelegent-block form .form-control {
     width: 260px;
