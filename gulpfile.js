@@ -10,15 +10,15 @@ gulp.task('default', function () {
         .pipe(gulp.dest('out/'));
 });
 // JS
-// var concat = require('gulp-concat');
-// var uglyfly = require('gulp-uglyfly');
-//
-// gulp.task('default', function() {
-//     return gulp.src('./js/wow.min.js', './js/select2.min.js','./js/jquery.min.js', './js/popper.js', './js/bootstrap.min.js', './js/jquery.magnific-popup.js', './js/lib-init.js',  )
-//         .pipe(concat('all.js'))
-//         .pipe(uglyfly())
-//         .pipe(gulp.dest('./dist/'));
-// });
+var concat = require('gulp-concat');
+var uglyfly = require('gulp-uglyfly');
+
+gulp.task('script', function() {
+    return gulp.src(['js/jquery.min.js', 'js/wow.min.js', 'js/select2.min.js', 'js/popper.js', 'js/bootstrap.min.js', 'js/jquery.magnific-popup.js', 'js/lib-init.js'])
+        .pipe(concat('all.js'))
+        .pipe(uglyfly())
+        .pipe(gulp.dest('./dist/'));
+});
 
 // IMAGE
 // const gulp = require('gulp');
